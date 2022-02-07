@@ -1,0 +1,8 @@
+version: '3'
+services:
+  rtsp-simple-server:
+    image: aler9/rtsp-simple-server:latest
+    ports:
+      - 8554 # RTSP port
+      - 8888 # HTTP port
+
